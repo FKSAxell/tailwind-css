@@ -9,9 +9,9 @@
     <title>TailWind css</title>
 </head>
 
-<body>
-    <header>
-        <svg viewBox="0 0 330.62 79.15">
+<body class="bg-black">
+    <header class="bg-black h-auto w-screen p-5 flex flex-wrap justify-between items-center fixed z-10">
+        <svg class="h-8  text-yellow-500 " viewBox="0 0 330.62 79.15">
             <g fill="currentColor">
                 <path
                     d="m51 49.23a29.08 29.08 0 0 1 -3.29 13.51 28 28 0 0 1 -9.17 10.43 27.86 27.86 0 0 1 -15.73 5.11 24.41 24.41 0 0 1 -4.44-.38 21.49 21.49 0 0 1 -10.5-4.9 21.65 21.65 0 0 1 -6.62-9.46 21 21 0 0 1 -1.25-7.36 23.42 23.42 0 0 1 3-11.49 34.07 34.07 0 0 1 2.22-3.18 20.08 20.08 0 0 1 6.57-4.93v-29.58c0-2.19-.49-3.6-1.45-4.25v-2.75a44.24 44.24 0 0 0 6.76.29h11.18q7.82 0 12.36 3.71a12.6 12.6 0 0 1 4.53 10.23 10.54 10.54 0 0 1 -1.69 5.69 16.73 16.73 0 0 1 -4.48 4.69 101.78 101.78 0 0 1 7.33 9.17 25 25 0 0 1 3.86 8.69 26.89 26.89 0 0 1 .81 6.76zm-11.86 7.77a22 22 0 0 0 1.4-7.77 25.06 25.06 0 0 0 -.92-6.76 22.44 22.44 0 0 0 -2.46-5.79 25.33 25.33 0 0 0 -3.52-4.3 29.46 29.46 0 0 0 -4.88-3.91 33.65 33.65 0 0 1 -3.42.05c-1.32 0-2.27-.05-2.85-.05v7.92a11.05 11.05 0 0 1 3.43 2.41 12.24 12.24 0 0 1 2.36 3.48 12.08 12.08 0 0 1 .87 4.63 11.09 11.09 0 0 1 -1.16 5 12.75 12.75 0 0 1 -3.76 4.68 35 35 0 0 1 -6 3.72c.07 1-.37.61-1.3-1.26a38.3 38.3 0 0 1 -2.32-5.74q-.91-2.94.15-2.37a6.38 6.38 0 0 0 3.47-1 4.37 4.37 0 0 0 2.32-2.41 3.14 3.14 0 0 0 .1-.87 4 4 0 0 0 -1-2.61 3.12 3.12 0 0 0 -2.47-1.05q-2.61 0-4.82 3.38a17.2 17.2 0 0 0 -3 9.85 12.06 12.06 0 0 0 2.64 7.86 11.37 11.37 0 0 0 9.56 4.54 18.21 18.21 0 0 0 7-1.45 21.41 21.41 0 0 0 6.23-3.86 15.51 15.51 0 0 0 4.35-6.32zm-16.65-38.08h5.79q6.18 0 6.18-4.73 0-4.24-6.18-4.25h-5.79z" />
@@ -33,7 +33,7 @@
                     d="m323.56 6.13v-2.41c0-.24.06-.3.3-.3h.57 1.68a1.75 1.75 0 0 1 1.6 1.48 1.68 1.68 0 0 1 -.82 1.72c-.12.07-.13.07-.06.21.3.54.59 1.09.89 1.64v.07a.19.19 0 0 1 -.17.3h-1a.22.22 0 0 1 -.2-.15c-.28-.56-.57-1.13-.84-1.69a.21.21 0 0 0 -.24-.14h-.27c-.14 0-.15 0-.15.14v1.63c0 .14-.08.22-.22.22h-.84a.2.2 0 0 1 -.22-.22c0-.13 0-.26 0-.39v-2.11zm1.95-.37h.49a.59.59 0 0 0 .58-.61.6.6 0 0 0 -.58-.62c-.36 0-.72 0-1.08 0-.08 0-.11 0-.11.1v1c0 .09 0 .12.12.11z" />
             </g>
         </svg>
-        <svg viewBox="0 0 512 512">
+        <svg class="h-8 w-6 mr-6 text-yellow-500 sm:hidden" viewBox="0 0 512 512">
             <g fill="currentColor">
                 <path
                     d="m464.883 64.267h-417.766c-25.98 0-47.117 21.136-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.013-21.137-47.149-47.117-47.149z" />
@@ -43,15 +43,16 @@
                     d="m464.883 353.467h-417.766c-25.98 0-47.117 21.137-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.012-21.137-47.149-47.117-47.149z" />
             </g>
         </svg>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-                <li>
-                    <a href="#">
+        <nav class="hidden sm:inline flex flex-wrap">
+            <ul class="text-white flex flex-wrap ">
+                <li class="mr-6"><a href="#">Home</a></li>
+                <li class="mr-6"><a href="#">Projects</a></li>
+                <li class="mr-6"><a href="#">About</a></li>
+                <li class="mr-6"><a href="#">Services</a></li>
+                <li class="mr-6 "><a href="#">Contact</a></li>
+                <li class="mr-6 ">
+                    <a class="bg-yellow-500 text-black px-3 py-1 rounded hover:bg-yellow-900 hover:text-white focus:ring-2 focus:ring-white"
+                        href="#">
                         Login
                     </a>
                 </li>
@@ -59,82 +60,131 @@
         </nav>
     </header>
 
-    <article>
+    <article class="h-screen bg-gray-200 main-article text-white flex justify-end items-center">
 
-        <section>
-            <div><img src="./images/coffee/coffee1.png" alt="coffee"></div>
+        <section class="m-6 p-2 w-1/2  hidden sm:block  ">
+            <div><img class="w-auto h-60 mx-auto" src="./images/coffee/coffee1.png" alt="coffee"></div>
         </section>
 
-        <section>
-            <h1><span>Bahamas</span> Coffee</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sapiente inventore id numquam
+        <section class="sm:w-1/2  m-6 p-2 bg-black bg-opacity-10 rounded">
+            <h1 class="font-bold text-4xl"><span class="text-yellow-500">Bahamas</span> Coffee</h1>
+            <p class="my-6 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sapiente inventore id numquam
                 eaque voluptates nobis consequatur, velit aliquid necessitatibus iste assumenda excepturi.</p>
-            <a href="#">Order Now</a>
+            <a class="bg-yellow-500 text-black px-3 py-1 rounded hover:bg-yellow-900 hover:text-white focus:ring-2 focus:ring-white"
+                href="#">Order Now</a>
         </section>
 
     </article>
 
-    <article>
+    <article class="h-96 bg-yellow-500 p-20 transform skew-y-3 flex items-center">
         <section>
-            <blockquote cite="">
+            <blockquote cite="http://www.georgerrmartin.com/">
 
-                <p>
+                <p class="text-black font-medium sm:text-2xl italic text-justify transform -skew-y-3">
                     "Somos el resultado de los libros que leemos, los cafés que disfrutamos, los viajes que hacemos y
                     las
                     personas que amamos"
                 </p>
             </blockquote>
 
-            <p>— Airton Ortiz</p>
+            <p class="text-black font-medium my-2 text-1xl text-right transform -skew-y-3">— Airton Ortiz</p>
         </section>
     </article>
 
-    <article>
+    <article class="h-96 secondary-article ">
         <section>
         </section>
     </article>
 
-    <article>
+    <article class="h-auto flex flex-wrap  justify-around p-10">
 
-        <section>
-            <img src="./images/coffee/coffee-section.jpg" alt="capu">
-            <div>
-                <div>Capuchino</div>
-                <p>
+        <section class="sm:w-1/4 w-11/12 m-4 bg-white rounded rounded-3xl overflow-hidden">
+
+            <img class="w-full" src="./images/coffee/coffee-section.jpg" alt="Mountain">
+
+            <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">Capuchino</div>
+                <p class="text-gray-700">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
                     perferendis eaque, exercitationem praesentium nihil.
                 </p>
             </div>
-        </section>
 
-        <section>
-            <img src="./images/coffee/coffee-section.jpg" alt="moca">
-            <div>
-                <div>Mocachino</div>
-                <p>
+            <!-- <div class="px-6 pt-4 pb-2 flex flex-wrap">
+                <a href="#" class="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #Coffee
+                </a>
+                <a href="#" class="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #Bahamas
+                </a>
+                <a href="#" class="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #Axell
+                </a>
+                <a href="#" class="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #ESPOL
+                </a>
+            </div> -->
+        </section>
+        
+        <section class="sm:w-1/4 w-11/12 m-4 bg-white rounded rounded-3xl overflow-hidden">
+
+            <img class="w-full" src="./images/coffee/coffee-section.jpg" alt="Mountain">
+
+            <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">Mocachino</div>
+                <p class="text-gray-700">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
                     perferendis eaque, exercitationem praesentium nihil.
                 </p>
             </div>
+
+            <!-- <div class="px-6 pt-4 pb-2 flex flex-wrap">
+                <a href="#" class="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #Coffee
+                </a>
+                <a href="#" class="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #Bahamas
+                </a>
+                <a href="#" class="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #Axell
+                </a>
+                <a href="#" class="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #ESPOL
+                </a>
+            </div> -->
         </section>
+        <section class="sm:w-1/4 w-11/12 m-4 bg-white rounded rounded-3xl overflow-hidden">
 
-        <section>
-            <img src="./images/coffee/coffee-section.jpg" alt="ame">
+            <img class="w-full" src="./images/coffee/coffee-section.jpg" alt="Mountain">
 
-            <div>
-                <div>Americano</div>
-                <p>
+            <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">Americano</div>
+                <p class="text-gray-700">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
                     perferendis eaque, exercitationem praesentium nihil.
                 </p>
             </div>
-        </section>
 
+            <!-- <div class="px-6 pt-4 pb-2 flex flex-wrap">
+                <a href="#" class="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #Coffee
+                </a>
+                <a href="#" class="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #Bahamas
+                </a>
+                <a href="#" class="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #Axell
+                </a>
+                <a href="#" class="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #ESPOL
+                </a>
+            </div> -->
+        </section>
     </article>
 
 
-    <footer>
-        <p>&copy; Copyright 2021, Axell Corporation</p>
+    <footer class="h-20 bg-yellow-500 flex text-center items-center justify-center">
+        <p class="text-black font-medium text-xs">&copy; Copyright 2021, Axell Corporation</p>
     </footer>
 
 
